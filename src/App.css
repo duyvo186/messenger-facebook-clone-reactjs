@@ -1,0 +1,45 @@
+
+.App {
+  text-align: center;
+}
+
+
+.img-messenger{
+  margin-top: 20px;
+
+}
+.main-text{
+  background: linear-gradient(
+    81.84deg
+    , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+        font-size: 60px;
+        font-weight: 450;
+        letter-spacing: -2px;
+        line-height: 52px;
+        padding: 0 0 8px;
+        text-align: left;
+        word-break: break-word;
+        font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.app_form{
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index:1;
+  background-color: #e9e9eb;
+  width: 94%;
+  margin: 20px;
+}
+.app_formControl{
+  display:flex !important;
+  flex-direction: row !important;
+}
+.app_input{
+  flex: 1;
+}
+.app_iconButton{
+  flex: 0;
+}
